@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vishal.css">
+    <style>
+        /*varibale custom*/
+        :root{
+            --primary-color:brown;
+            --custom-width: 330px;
+        }
+        .container{
+            background-color: beige;
+            height: 750px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .box{
+            background:aquamarine;
+            height: 330px;
+            width: var(--custom-width);
+            border: 1px solid var(--primary-color);
+            margin: 5px;
+            padding: 5px;
+            box-shadow: 10px 15px brown, 15px 25px black;
+
+        }
+        /*shadow on text
+        #head1{
+            text-shadow: 12px 13px 1px white;
+        }
+            */
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="bike.jpg" width="100"/>
+            <h2 id="head1">this is bike</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum suscipit architecto quo odit amet beatae aspernatur iste deleniti aliquam, velit recusandae earum repudiandae impedit inventore. Nobis, dolorem voluptates. Veritatis, enim!</p>
+        </div>
+
